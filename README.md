@@ -9,7 +9,7 @@ Menggunakan <br>
 <br><br>
 Sistem Operasi : Raspbian OS
 ![System Overview-01](https://user-images.githubusercontent.com/77771888/127804773-7466d698-bb92-4034-89a1-a5c3fa98a4c5.png)
-![MQTT](https://user-images.githubusercontent.com/77771888/128625034-4c7409f8-faa7-4f1f-bfc2-dbc7deacfc13.png)
+![MQTT](https://user-images.githubusercontent.com/77771888/128625034-4c7409f8-faa7-4f1f-bfc2-dbc7deacfc13.png) <br>
 31 Juli 2021 <br>
 Sistem Selesai dibuat, tetapi belum ada integrasi antara server dan node<br>
 File-file Log Sistem, Set-Up Sistem, Paper, dan Poster Sistem Selesai dibuat, tapi belum diunggah ke Github<br>
