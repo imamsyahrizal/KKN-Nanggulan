@@ -2,9 +2,13 @@
 Proyek KKN PPM UGM 2021 di Desa Nanggulan. <br>
 **Sistem monitoring kualitas air kolam berbasis IoT**. <br>
 Menggunakan <br> 
-1. Raspberry Pi<br> 
-2. Node-RED, <br>
-3. ESP32 <br>
+  1. Raspberry Pi<br> 
+  2. Node-RED, <br>
+  3. RTC DS3231
+  4. ESP32 <br>
+  5. Sensor Suhu D18B20
+  6. Sensor pH 4502C
+  7. Sensor Kekeruhan Gravity TDS SEN0244
 
 <br><br>
 Sistem Operasi : Raspbian OS
