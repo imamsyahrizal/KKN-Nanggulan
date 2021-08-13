@@ -19,4 +19,6 @@ Sistem Selesai dibuat, tetapi belum ada integrasi antara server dan node<br>
 File-file Log Sistem, Set-Up Sistem, Paper, dan Poster Sistem Selesai dibuat, tapi belum diunggah ke Github<br>
 08 Agustus 2021 <br>
 Upload Digram MQTT <br>
-Perbaikan pada [01] Log Sistem dan [02] Set-Up Sistem
+Perbaikan pada [01] Log Sistem dan [02] Set-Up Sistem <br>
+13 Agustus 2021 <br>
+Upload Poster, Report, Set-Up, dan Logbook Sistem
