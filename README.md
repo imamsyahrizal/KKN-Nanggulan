@@ -10,6 +10,10 @@ Menggunakan <br>
   6. Sensor pH 4502C
   7. Sensor Kekeruhan Gravity TDS SEN0244
 
+
+# Used tutorial 
+https://randomnerdtutorials.com/esp32-mqtt-publish-subscribe-arduino-ide/
+
 <br><br>
 Sistem Operasi : Raspbian OS
 ![System Overview-01](https://user-images.githubusercontent.com/77771888/127804773-7466d698-bb92-4034-89a1-a5c3fa98a4c5.png)
