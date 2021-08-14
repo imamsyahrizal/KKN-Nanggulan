@@ -29,4 +29,5 @@ Upload Poster, Report, Set-Up, dan Logbook Sistem
 
 
 14 Agustus 2021 <br>
-Mengunggah kode Node-RED dan gambar flows
+Mengunggah kode Node-RED dan gambar flows <br>
+Mengunggah kode testing ESP untuk test komunikasi MQTT dan Node-RED, pin ESP32 32 35 34 sebagai masukkkan ADC
