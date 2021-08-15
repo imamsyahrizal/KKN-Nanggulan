@@ -39,3 +39,8 @@ Sistem Operasi : Raspbian OS
   - Mengunggah kode Node-RED dan gambar flows <br>
   - Mengunggah kode testing ESP untuk test komunikasi MQTT dan Node-RED, pin ESP32 32 35 34 sebagai masukkkan ADC
   - Mengunggah Library pubsubclient yang diambil dari Random Nerd
+
+15 Agustus 2021 <br>
+  - Evaluasi tahap 2
+  - Membuat flow baru dengan menghapus chart >> first solution untuk masalah semakin lama raspberrypi menjadi berat
+  - FOR NEXT DEVELPOMENT PLEASSE add InfluxDB and Grafana
