@@ -43,4 +43,4 @@ Sistem Operasi : Raspbian OS
 15 Agustus 2021 <br>
   - Evaluasi tahap 2
   - Membuat flow baru dengan menghapus chart >> first solution untuk masalah semakin lama raspberrypi menjadi berat
-  - FOR NEXT DEVELPOMENT PLEASSE add InfluxDB and Grafana
+  - FOR NEXT DEVELPOMENT PLEASE add InfluxDB and Grafana
