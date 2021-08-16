@@ -17,7 +17,12 @@ Menggunakan <br>
 
 
 ## Used tutorial 
-https://randomnerdtutorials.com/esp32-mqtt-publish-subscribe-arduino-ide/
+  - https://randomnerdtutorials.com/esp32-mqtt-publish-subscribe-arduino-ide/
+  - https://simonhearne.com/2020/pi-influx-grafana/
+  - https://m.youtube.com/watch?v=JdV4x925au0
+  - https://discourse.nodered.org/t/why-raspberry-pi-becomes-slow-while-running-for-a-long-time/35144/22
+  - https://docs.influxdata.com/influxdb/v1.8/query_language/manage-database/
+  - https://www.youtube.com/watch?v=mvIuB1N0U7I
 
 <br><br>
 ## Tentang Sistem
@@ -58,5 +63,4 @@ Sistem Operasi : Raspbian OS
   -  Evaluasi tahap 2 >> edit2 minor untuk dashboard
   -  Tampilan Dashboard sekarang
   -  ![0816 - Dashboard](https://user-images.githubusercontent.com/77771888/129511771-ad139c05-0a78-4234-82c7-f95cdc490a36.png)
-
   -  Semua file di Github belum diperbarui
