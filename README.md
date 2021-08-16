@@ -49,6 +49,7 @@ Sistem Operasi : Raspbian OS
   - Mengunggah kode Node-RED dan gambar flows <br>
   - Mengunggah kode testing ESP untuk test komunikasi MQTT dan Node-RED, pin ESP32 32 35 34 sebagai masukkkan ADC
   - Mengunggah Library pubsubclient yang diambil dari Random Nerd
+  - Evaluasi tahap 1 : sistem tidak kuat (hanya bertahan kurang lebih 10 menit) penyebab mirip refrensi no 4
 
 15 Agustus 2021 <br>
   - Evaluasi tahap 2
