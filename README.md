@@ -43,4 +43,15 @@ Sistem Operasi : Raspbian OS
 15 Agustus 2021 <br>
   - Evaluasi tahap 2
   - Membuat flow baru dengan menghapus chart >> first solution untuk masalah semakin lama raspberrypi menjadi berat
-  - FOR NEXT DEVELPOMENT PLEASE add InfluxDB and Grafana
+  - instal InfluxDB dan Grafana
+  - Pembaruan program di Node-RED
+  - Membuat DATABASE KUALITAS
+  - Node-RED >> measurements :  suhu1, ph1, tds1 (saran next data ditambah kolam:1 jadi nanti tinggal pakai where kolam = 1 atau 2 atau 3 dst)
+  - Membuat Dashboard di Grafana
+
+16 Agustus 2021 <br>
+  -  Evaluasi tahap 2 >> edit2 minor untuk dashboard
+  -  Tampilan Dashboard sekarang
+  -  ![0816 - Dashboard](https://user-images.githubusercontent.com/77771888/129511771-ad139c05-0a78-4234-82c7-f95cdc490a36.png)
+
+  -  Semua file di Github belum diperbarui
