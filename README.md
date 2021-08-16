@@ -4,13 +4,16 @@ Proyek KKN PPM UGM 2021 di Desa Nanggulan. <br>
 ![0816 - Dashboard](https://user-images.githubusercontent.com/77771888/129511819-f9261d32-d0b8-4f76-95cd-6414af761b8c.png)
 
 Menggunakan <br> 
-  1. Raspberry Pi<br> 
-  2. Node-RED, <br>
-  3. RTC DS3231
-  4. ESP32 <br>
-  5. Sensor Suhu D18B20
-  6. Sensor pH 4502C
-  7. Sensor Kekeruhan Gravity TDS SEN0244
+  1. Raspberry Pi : Server
+  2. Mosquitto MQTT : Transfer data dari node
+  3. Node-RED : Menerima data dari node dan menghubungkan ke database
+  4. InfluxDB : Mengumpulkan data menjadi database
+  5. Grafana : Menampilkan data parameter sistem
+  6. RTC DS3231 : Time
+  7. ESP32 
+  8. Sensor Suhu D18B20
+  9. Sensor pH 4502C
+  10. Sensor Kekeruhan Gravity TDS SEN0244
 
 
 ## Used tutorial 
