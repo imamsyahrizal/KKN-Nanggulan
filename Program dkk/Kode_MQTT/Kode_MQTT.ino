@@ -115,11 +115,11 @@ void loop() {
 
   // Cek waktu untuk update, jika sudah sesuai lakukan publish data
   long sekarang = millis();
-  if(sekarang - waktuSebelumnya > 500){
+  if(sekarang - waktuSebelumnya > 180000){
     waktuSebelumnya = sekarang;
 
     suhu = analogRead(suhuPin);
-    suhu = map(suhu,0,4095,0,3000);
+    suhu = map(suhu,0,4095,0,6000);
     suhu = suhu/100;
     char suhuString[8];
     dtostrf(suhu, 1, 2, suhuString);
