@@ -25,6 +25,7 @@ Proyek KKN PPM UGM 2021 di Desa Nanggulan. <br>
   4. https://discourse.nodered.org/t/why-raspberry-pi-becomes-slow-while-running-for-a-long-time/35144/22
   5. https://docs.influxdata.com/influxdb/v1.8/query_language/manage-database/
   6. https://www.youtube.com/watch?v=mvIuB1N0U7I
+  7. https://github.com/influxdata/influxdb/issues/8912
 
 <br><br>
 ## Tentang Sistem
@@ -71,3 +72,8 @@ Sistem Operasi : Raspbian OS
 17 Agustus 2021 <br>
   - Update Logbook sistem dan Set-Up
   - Pembaruan metode yang ditampilkan menjadi last() >> dengan interval tertentu
+  - Evaluasi dengan ditest sekitar 8 jam data dikirim tiap 10 detik >> Influx jadi rusak  https://stackoverflow.com/questions/47833787/how-to-uninstall-influxdb-with-all-its-data-and-configuration-files 
+  - Solusi Uninstal InfluxDB sebelumnya di hapus dulu semua dengan $ sudo chown -R influxdb:influxdb /var/lib/influxdb >> 
+  - ![image](https://user-images.githubusercontent.com/77771888/129732011-85e5265b-e046-427c-a3ed-b59ff3486aee.png)
+  - kemudian pakai kode $ sudo rm -r /var/lib/influxdb $ sudo apt-get remove influxdb >> lebih lengkap referensi 7
+  - Install ulang InfluxDB dengan cara yang sama dengan sebelumnya pakai referensi 2
