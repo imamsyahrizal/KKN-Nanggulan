@@ -67,3 +67,7 @@ Sistem Operasi : Raspbian OS
   -  Tampilan Dashboard sekarang
   -  ![0816 - Dashboard](https://user-images.githubusercontent.com/77771888/129511771-ad139c05-0a78-4234-82c7-f95cdc490a36.png)
   -  Semua file di Github belum diperbarui
+
+17 Agustus 2021 <br>
+  - Update Logbook sistem dan Set-Up
+  - Pembaruan metode yang ditampilkan menjadi last() >> dengan interval tertentu
