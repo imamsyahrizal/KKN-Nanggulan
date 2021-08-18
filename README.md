@@ -79,7 +79,7 @@ Sistem Operasi : Raspbian OS
 16 Agustus 2021 <br>
   -  Evaluasi tahap 2 >> edit2 minor untuk dashboard
   -  Tampilan Dashboard sekarang
-  -  ![0816 - Dashboard](https://user-images.githubusercontent.com/77771888/129511771-ad139c05-0a78-4234-82c7-f95cdc490a36.png)
+    ![0816 - Dashboard](https://user-images.githubusercontent.com/77771888/129511771-ad139c05-0a78-4234-82c7-f95cdc490a36.png)
   -  Semua file di Github belum diperbarui
 
 17 Agustus 2021 <br>
@@ -88,7 +88,7 @@ Sistem Operasi : Raspbian OS
   - Evaluasi dengan ditest sekitar 8 jam data dikirim tiap 10 detik >> Influx jadi rusak  https://stackoverflow.com/questions/47833787/how-to-uninstall-influxdb-with-all-its-data-and-configuration-files 
   - Permasalahan : Failed to connect to http://localhost:8086: Get http://localhost:8086/ping: dial tcp [::1]:8086: getsockopt Please check your connection settings and ensure 'influxd' is running
   - Solusi Uninstal InfluxDB sebelumnya di hapus dulu semua dengan $ sudo chown -R influxdb:influxdb /var/lib/influxdb >> 
-  - ![image](https://user-images.githubusercontent.com/77771888/129732011-85e5265b-e046-427c-a3ed-b59ff3486aee.png)
+   ![image](https://user-images.githubusercontent.com/77771888/129732011-85e5265b-e046-427c-a3ed-b59ff3486aee.png)
   - kemudian pakai kode $ sudo rm -r /var/lib/influxdb $ sudo apt-get remove influxdb >> lebih lengkap referensi 7
   - Install ulang InfluxDB dengan cara yang sama dengan sebelumnya pakai referensi 2
   - Jika diperlukan configurasi influxdb https://github.com/influxdata/influxdb/blob/1.7/etc/config.sample.toml
