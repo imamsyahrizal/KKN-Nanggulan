@@ -5,29 +5,42 @@ Proyek KKN PPM UGM 2021 di Desa Nanggulan. <br>
 
 
 
-## Use
-  1. Raspberry Pi : Server
-  2. Mosquitto MQTT : Transfer data dari node
-  3. Node-RED : Menerima data dari node dan menghubungkan ke database
-  4. InfluxDB : Mengumpulkan data menjadi database
-  5. Grafana : Menampilkan data parameter sistem
-  6. RTC DS3231 : Time
-  7. ESP32 
-  8. Sensor Suhu D18B20
-  9. Sensor pH 4502C
-  10. Sensor Kekeruhan Gravity TDS SEN0244
+## Tools
+  1. Raspberry Pi
+  2. RTC DS3231
+  3. ESP32 
+  4. Sensor Suhu D18B20
+  5. Sensor pH 4502C
+  6. Sensor Kekeruhan Gravity TDS SEN0244
+  7. Router 
+  8. Fan 5V
+  9. Memory Card
+  10. SD Card Reader
+  11. HDMI Cable
+  12. LAN Cable
+
+## Software
+  1. Mosquitto MQTT
+  2. Node-Red
+  3. InfluxDB
+  4. Grafana
+  5. Arduino IDE
 
 
-## Used tutorial 
-  1. https://randomnerdtutorials.com/esp32-mqtt-publish-subscribe-arduino-ide/
-  2. https://simonhearne.com/2020/pi-influx-grafana/
-  3. https://m.youtube.com/watch?v=JdV4x925au0
-  4. https://discourse.nodered.org/t/why-raspberry-pi-becomes-slow-while-running-for-a-long-time/35144/22
-  5. https://docs.influxdata.com/influxdb/v1.8/query_language/manage-database/
-  6. https://www.youtube.com/watch?v=mvIuB1N0U7I
-  7. https://github.com/influxdata/influxdb/issues/8912
+## Refrensi
+  1. ESP32 MQTT – Publish and Subscribe with Arduino IDE oleh Rui Santos di https://randomnerdtutorials.com/esp32-mqtt-publish-subscribe-arduino-ide/
+  2. Installing InfluxDB & Grafana on Raspberry Pi oleh Simon Hearne di https://simonhearne.com/2020/pi-influx-grafana/
+  3. Node-Red, InfluxDB, and Grafana Tutorial on a Raspberry Pi oleh di Andreas Spiess https://m.youtube.com/watch?v=JdV4x925au0
+  4. Forum diskusi Raspberry Pi menjadi lambat di https://discourse.nodered.org/t/why-raspberry-pi-becomes-slow-while-running-for-a-long-time/35144/22
+  5. Manage your database using InfluxQL di https://docs.influxdata.com/influxdb/v1.8/query_language/manage-database/
+  6. Beginner for Node-RED, InfluxDB & Grafana oleh Nur Hanani Ahmad Puaad di https://www.youtube.com/watch?v=mvIuB1N0U7I
+  7. InfluxDB refusing connections #8912 di https://github.com/influxdata/influxdb/issues/8912
+  8. S. Pasika dan S. T. Gandla, “Smart water quality monitoring system with cost-effective using IoT,” Heliyon, vol. 6, no. 7, 2020
+  9. A. Rifa'i, M. U. H. Rasyid dan A. I. Gunawan, “Sistem Pemantauan dan Kontrol Otomatis Kualitas Air Berbasis IoT Menggunakan Platform Node-RED untuk Budidaya Udang,” Jurnal Teknologi Terapan, vol. 7, no. 1, pp. 19-26, 2021. 
+  10. K. M. dan Y. Irawan, “Smart Aquarium Design Using Raspberry Pi and Android Based,” Jurnal of Robotics and Control, vol. 2, no. 5, pp. 368-372, 2021.
+  11.  M. Niswar, S. Wainalang, A. A. Ilham, Z. Zainuddin, Y. Fujaya, Z. Muslimin, A. W. Paundu, S. Kashihara dan D. Fall, “IoT-based Water Quality Monitoring System for”. 
 
-<br><br>
+
 ## Tentang Sistem
 Sistem Operasi : Raspbian OS
 ![System Overview-01](https://user-images.githubusercontent.com/77771888/127804773-7466d698-bb92-4034-89a1-a5c3fa98a4c5.png)
@@ -73,7 +86,14 @@ Sistem Operasi : Raspbian OS
   - Update Logbook sistem dan Set-Up
   - Pembaruan metode yang ditampilkan menjadi last() >> dengan interval tertentu
   - Evaluasi dengan ditest sekitar 8 jam data dikirim tiap 10 detik >> Influx jadi rusak  https://stackoverflow.com/questions/47833787/how-to-uninstall-influxdb-with-all-its-data-and-configuration-files 
+  - Permasalahan : Failed to connect to http://localhost:8086: Get http://localhost:8086/ping: dial tcp [::1]:8086: getsockopt Please check your connection settings and ensure 'influxd' is running
   - Solusi Uninstal InfluxDB sebelumnya di hapus dulu semua dengan $ sudo chown -R influxdb:influxdb /var/lib/influxdb >> 
   - ![image](https://user-images.githubusercontent.com/77771888/129732011-85e5265b-e046-427c-a3ed-b59ff3486aee.png)
   - kemudian pakai kode $ sudo rm -r /var/lib/influxdb $ sudo apt-get remove influxdb >> lebih lengkap referensi 7
   - Install ulang InfluxDB dengan cara yang sama dengan sebelumnya pakai referensi 2
+  - Jika diperlukan configurasi influxdb https://github.com/influxdata/influxdb/blob/1.7/etc/config.sample.toml
+
+18 Agustus 2021
+  - Melengkapi README.md
+  - Memperbarui kode MQTT
+  - Evaluasi sistem
