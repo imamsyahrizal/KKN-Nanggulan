@@ -1,8 +1,8 @@
 # KKN-WaterMonitoring
 Proyek KKN PPM UGM 2021 di Desa Nanggulan. <br>
 **Sistem monitoring kualitas air kolam berbasis IoT**. <br>
-![Alat Sistem](https://user-images.githubusercontent.com/77771888/130319483-e6a8410c-aad6-4aca-a06e-eaf44d5caab1.png)
 ![0816 - Dashboard](https://user-images.githubusercontent.com/77771888/129525431-ab387ffd-0690-47e1-be27-1555683be9c5.png)
+![Alat Sistem](https://user-images.githubusercontent.com/77771888/130319483-e6a8410c-aad6-4aca-a06e-eaf44d5caab1.png)
 ![Tampilan Dashboard dari Raspi](https://user-images.githubusercontent.com/77771888/130319482-47656b72-bcd4-40f5-9131-1899858549c1.jpg)
 
 
