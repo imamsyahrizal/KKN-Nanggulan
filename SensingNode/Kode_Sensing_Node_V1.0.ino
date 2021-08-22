@@ -113,7 +113,8 @@ void loop(){
     long sekarang = millis();
     if(sekarang - waktuSebelumnya > 600000){
         waktuSebelumnya = sekarang;
-
+      
+      //Power of Hydrogen
         //int val = analogRead(15);
         //nilai_analog_TB = analogRead(tb_Pin);
         nilai_analog_PH = analogRead(ph_Pin);
@@ -130,7 +131,8 @@ void loop(){
         Serial.print("Nilai PH cairan: ");
         Serial.println(Po, 2);
         client.publish("kolam1/ph", PoString);
-
+      
+      //Temperature
         sensors.requestTemperatures(); 
         float temperatureC = sensors.getTempCByIndex(0);
         //float temperatureF = sensors.getTempFByIndex(0);
@@ -142,7 +144,8 @@ void loop(){
         client.publish("kolam1/suhu", tempString);
         //Serial.print(temperatureF);
         //Serial.println("ºF");
-
+      
+      //Kekeruhan Air
             volt = 0;
             for(int i=0; i<800; i++)
             {
