@@ -106,3 +106,6 @@ Sistem Operasi : Raspbian OS
 
 21 Agustus 2021
   - Pembaruan File Report, Petunjuk, Poster, Tutorial Pembuatan Sistem
+
+29 Agustus 2021
+  - Sudah beberapa hari lalu sistem selesai ditest dan dilengkapi semua file nya
